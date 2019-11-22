@@ -20,7 +20,7 @@ public abstract class Hero {
         this.mana = mana;
     }
 
-    public abstract void firePrimary();
-    public abstract void fireSecondary();
-    public abstract void receiveHit();
+    public abstract void firePrimary(Hero hero);
+    public abstract void fireSecondary(Hero hero);
+    public abstract void receiveHit(int power);
 }

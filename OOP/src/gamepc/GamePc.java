@@ -1,6 +1,4 @@
-package GamePc;
-
-import java.util.Scanner;
+package gamepc;
 
 import static java.lang.Math.random;
 
@@ -25,11 +23,11 @@ public class GamePc {
 //        i++;
 //        }
 
-        int i = 0;
-        while (guess == randomNumber || i < 10) {
-            System.out.println("Guess: ");
-            Scanner keyboard = new Scanner(System.in);
-            int guess = keyboard.nextInt();
-        }
+//        int i = 0;
+//        while (guess == randomNumber || i < 10) {
+//            System.out.println("Guess: ");
+//            Scanner keyboard = new Scanner(System.in);
+//            int guess = keyboard.nextInt();
+//        }
     }
 }

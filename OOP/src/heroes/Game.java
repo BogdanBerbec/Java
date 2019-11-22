@@ -6,15 +6,14 @@ public class Game {
         Mage hero2 = new Mage("China", 200, 800);
         WondreWoman hero3 = new WondreWoman("Diana", 500, 300);
 
-        hero1.firePrimary();
-        hero2.receiveHit();
-        hero3.receiveHit();
+        hero1.firePrimary(hero2);
+        hero1.firePrimary(hero3);
 
-        hero2.fireSecondary();
-        hero1.receiveHit();
-        hero1.receiveHit();
-        hero1.receiveHit();
-        hero1.receiveHit();
+        hero2.fireSecondary(hero1);
+
+        hero3.firePrimary(hero1);
+
+
 
         System.out.println(hero1.toString());
         System.out.println(hero2.toString());

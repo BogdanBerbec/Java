@@ -1,5 +1,10 @@
 public class Program {
     public static void main(String[] args) {
+//        Hours.NUMBER_OF_HOURS_IN_A_DAY
+
+//        Day.MARTI
+//        Day.values()
+
         Person alex = new Person("Alexandru", 20, 175, 10);
 
         System.out.println(alex.getName() + " are " + alex.getAge() + " de ani");
