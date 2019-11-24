@@ -6,6 +6,7 @@ public class Program {
 //        Day.values()
 
         Person alex = new Person("Alexandru", 20, 175, 10);
+        Student mihai = new Student("Mihai", 23, 185, 110, "B");
 
         System.out.println(alex.getName() + " are " + alex.getAge() + " de ani");
 

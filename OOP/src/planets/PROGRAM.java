@@ -12,5 +12,6 @@ public class PROGRAM {
         for (Planet p : Planet.values()) {
             System.out.println("Your weight on " + p + " is " + p.surfaceWeight(mass));
         }
+
     }
 }
